@@ -52,7 +52,8 @@ The dataset is provided in [CSV] format (specify the format), making it easy to 
 ### Insight 1: Total Number of Vehicles Registered by Make
 
 - **Description**: This insight analyzes the total number of vehicles registered under each make.
-- **Visualization**: 
+- **Visualization**:
+- 
 ![Total Number of Vehicles by Make](EV/makeandmodel.png)
 
 The chart shows that Tesla electric cars has the maximum distribution over Washington DC 
@@ -60,7 +61,8 @@ The chart shows that Tesla electric cars has the maximum distribution over Washi
 ### Insight 2: Top 10 Counties with Maximum Vehicles Owned
 
 - **Description**: This section highlights the top 10 counties that own the maximum number of electric vehicles.
-- **Visualization**: 
+- **Visualization**:
+- 
 ![Top 10 Counties with Maximum Vehicles]( EV/top10.png)
 
 It is enlightened that most of the electric cars are owned by king county in Washington and the number of cars made will be affected by the car make filter 
@@ -68,15 +70,20 @@ It is enlightened that most of the electric cars are owned by king county in Was
 ### Insight 3: Distribution of Electric Vehicles by Type
 
 - **Description**: A donut chart representing the distribution count between battery electric vehicles and plug-in electric vehicles.
-- **Visualization**: 
+- **Visualization**:
+- 
 ![Distribution of EVs by Type]( EV/vehicaltype.png)
+
+
 For each car make selected from the filter the values of the donut chart changes
 Some insights from the analysis are there is no  distribution of plug-in vehicals in jaguar cars in Washington and about the popular car likes Audi,Ford,kia  people prefer to buy battery vehicals than plug in vehicals  whereas for BMW plugin vehicals are bought more than battery vehicals
 
 ### Insight 4: Electric Vehicles Owned by Postal Codes
 
 - **Description**: This map chart displays the distribution of electric vehicles owned by  each postal code in Wasgington  with respect to each car make 
-- **Visualization**: 
+- **Visualization**:
+
+- 
 ![Electric Vehicles by Postal Codes]( EV/postalcode.png)
 
 ### Insight 5: Number of Electric Vehicles by Model Year
@@ -84,7 +91,9 @@ Some insights from the analysis are there is no  distribution of plug-in vehical
 - **Description**: A bar chart representing the number of battery electric vehicles and plug-in electric vehicles made in each model year.
 The major insight from this analysis is the distribution of  cars are maximum in the year 2024 ,people have bought a large number of cars in 2024
 
-- **Visualization**: 
+- **Visualization**:
+
+- 
 ![Number of EVs by Model Year]( EV/modelyear.png)
 
 ### Project Files
