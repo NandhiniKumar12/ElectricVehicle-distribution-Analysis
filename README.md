@@ -2,7 +2,24 @@
 
 ## Project Overview
 
-This project analyzes electric vehicle (EV) data to explore trends, insights, and implications for the adoption of electric vehicles across different regions in the  Washington, United States. The dataset encompasses various attributes related to electric vehicles, including their specifications, registration details, and eligibility for clean fuel programs.
+This project analyzes electric vehicle (EV) data to explore trends, insights, and implications for the adoption of electric vehicles across different counties  in Washington,United States. The dataset encompasses various attributes related to electric vehicles, including their specifications, registration details, and eligibility for clean fuel programs.
+
+## Objectives
+
+The main objectives of this project are:
+
+1. **Trend Analysis**: Investigate the trends in electric vehicle registrations over the years.
+2. **Geographical Insights**: Analyze how electric vehicle adoption varies by region, including urban vs. rural comparisons.
+3. **Pricing Analysis**: Examine the relationship between electric range and base MSRP across different makes and models.
+4. **Policy Recommendations**: Provide insights that can inform policy-making related to sustainable transportation initiatives.
+
+## Tools and Technologies
+
+### Tools and Techniques
+
+This analysis is carried out using the following tools:
+- **Tableau**: For data manipulation, analysis, and visualization.
+
 
 ## Dataset Description
 
@@ -28,63 +45,49 @@ The dataset contains the following fields:
 
 ### Data Format
 
-The dataset is provided in [CSV] format, making it easy to access and analyze using various tools.
+The dataset is provided in [CSV] format (specify the format), making it easy to access and analyze using various tools.
 
-## Objectives
+## Insights
 
-The main objectives of this project are:
+### Insight 1: Total Number of Vehicles Registered by Make
 
-1. **Trend Analysis**: Investigate the trends in electric vehicle registrations over the years.
-2. **Geographical Insights**: Analyze how electric vehicle adoption varies by Washington in US.
-3. **Pricing Analysis**: Examine the relationship between electric range and base MSRP across different makes and models.
-4. **Policy Recommendations**: Provide insights that can inform policy-making related to sustainable transportation initiatives.
+- **Description**: This insight analyzes the total number of vehicles registered under each make.
+- **Visualization**: 
+![Total Number of Vehicles by Make](EV/makeandmodel.png)
 
-## Tools and Technologies
+The chart shows that Tesla electric cars has the maximum distribution over Washington DC 
 
-The analysis will utilize the following tools and technologies:
+### Insight 2: Top 10 Counties with Maximum Vehicles Owned
 
+- **Description**: This section highlights the top 10 counties that own the maximum number of electric vehicles.
+- **Visualization**: 
+![Top 10 Counties with Maximum Vehicles]( EV/top10.png)
 
+It is enlightened that most of the electric cars are owned by king county in Washington and the number of cars made will be affected by the car make filter 
 
+### Insight 3: Distribution of Electric Vehicles by Type
 
-## Getting Started
+- **Description**: A donut chart representing the distribution count between battery electric vehicles and plug-in electric vehicles.
+- **Visualization**: 
+![Distribution of EVs by Type]( EV/vehicaltype.png)
+For each car make selected from the filter the values of the donut chart changes
+Some insights from the analysis are there is no  distribution of plug-in vehicals in jaguar cars in Washington and about the popular car likes Audi,Ford,kia  people prefer to buy battery vehicals than plug in vehicals  whereas for BMW plugin vehicals are bought more than battery vehicals
 
-To replicate this analysis, follow these steps:
+### Insight 4: Electric Vehicles Owned by Postal Codes
 
-1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/yourusername/electric-vehicle-analysis.git
-    ```
+- **Description**: This map chart displays the distribution of electric vehicles owned by  each postal code in Wasgington  with respect to each car make 
+- **Visualization**: 
+![Electric Vehicles by Postal Codes]( EV/postalcode.png)
 
-2. **Navigate to the Project Directory**:
-    ```bash
-    cd electric-vehicle-analysis
-    ```
+### Insight 5: Number of Electric Vehicles by Model Year
 
-3. **Install Required Packages**:
-    If you're using Python, create a virtual environment and install the required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
+- **Description**: A bar chart representing the number of battery electric vehicles and plug-in electric vehicles made in each model year.
+The major insight from this analysis is the distribution of  cars are maximum in the year 2024 ,people have bought a large number of cars in 2024
 
-4. **Run the Analysis**:
-    Execute the Jupyter notebook or Python scripts to perform the analysis.
+- **Visualization**: 
+![Number of EVs by Model Year]( EV/modelyear.png)
 
-## Results
+### Project Files
 
-The results of the analysis will be documented in the Jupyter notebook(s) within the repository, showcasing visualizations, findings, and insights derived from the dataset.
-
-## Contribution
-
-Contributions to improve this analysis are welcome! Please fork the repository and submit a pull request with your enhancements.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE) (or specify your license).
-
-## Contact
-
-For questions or further information, please reach out to [your email] or open an issue in the repository.
-
----
-
-Thank you for exploring the Electric Vehicle Analysis Project!
+- **Electriv vehicle  Dataset**: [Link to  electricvehical Data] (https://github.com/NandhiniKumar12/ElectricVehicle-distribution-Analysis/blob/main/Electric_Vehicle_Population_Data.zip)
+- **Tableau Dashboard **: [Link to  electricvehical Data]( https://github.com/NandhiniKumar12/ElectricVehicle-distribution-Analysis/blob/main/EV%20Analysis.twbx)
